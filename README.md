@@ -25,7 +25,7 @@ I recommend to install tensor flow as a virtual environment via conda
 
 ## Purpose 
 
-This is Deep Learning exercise was re-created and change a few lines for learning purposes.  
+This is a Deep Learning exercise that was re-created and change a few lines for my learning purposes.  
 
 ## Credit
 
