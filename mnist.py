@@ -61,7 +61,7 @@ with tf.name_scope("train") as scope:
     optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost_function)
 
 # Initializing the variables
-init = tf.initialize_all_variables()
+init = tf.initialize_all_variables() # tf.global_variables_initializer()
 
 # Merge all summaries into a single operator
 merged_summary_op = tf.summary.merge_all()
