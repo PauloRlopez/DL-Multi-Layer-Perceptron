@@ -43,7 +43,7 @@ This is a Deep Learning exercise that was re-created and change a few lines for 
          W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions,          but these are available on your machine and could speed up CPU computations.
                 WARNING:tensorflow:Passing a `GraphDef` to the SummaryWriter is deprecated. Pass a `Graph` object instead,                     such as `sess.graph`.
                 
-        Iteration: 0001 cost= 29.860465115
+      Iteration: 0001 cost= 29.860465115
       Iteration: 0003 cost= 21.000626442
       Iteration: 0005 cost= 20.136222584
       Iteration: 0007 cost= 19.652899717
@@ -57,11 +57,11 @@ This is a Deep Learning exercise that was re-created and change a few lines for 
       Iteration: 0023 cost= 18.312887948
       Iteration: 0025 cost= 18.326373666
       Iteration: 0027 cost= 18.227951255
-    Iteration: 0029 cost= 18.035528241
-    Tuning completed!
+      Iteration: 0029 cost= 18.035528241
+      Tuning completed!
 
 
-## Credit
+## Credits
 
 Credit to tensorflow and google.
 
