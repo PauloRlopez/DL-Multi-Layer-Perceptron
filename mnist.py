@@ -20,9 +20,9 @@ mnist = input_data.read_data_sets("~/DS_ML/Deep Learning/", one_hot=True)
 
 # setting our parameters or tunning parameters for our model
 
-learning_rate = 0.01  # it defines how fast we want to update our weights
-training_iteration = 30 #
-batch_size = 100
+learning_rate = 0.01  # it defines how fast we want to update our weights/How quickly to adjust the cost function
+training_iteration = 30 # How many training cycles to got through 
+batch_size = 100  # size of the batches to train the data 
 display_step = 2
 
 
