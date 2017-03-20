@@ -58,6 +58,7 @@ This is a Deep Learning exercise that was re-created and change a few lines for 
       Iteration: 0025 cost= 18.326373666
       Iteration: 0027 cost= 18.227951255
       Iteration: 0029 cost= 18.035528241
+      Accuracy: 0.9235
       Tuning completed!
 
 
