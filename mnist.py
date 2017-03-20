@@ -4,6 +4,8 @@
 1. download the dataset
 2. split it into training and testing data
 3. format it for our use later on
+4. test the model
+5. calculate the accuracy rate
 
 
 """
@@ -32,7 +34,7 @@ x = tf.placeholder("float", [None, 784])
 x = tf.placeholder("float", [None, 784]) # mnist data image of shape 28*28=784
 y = tf.placeholder("float", [None, 10]) # 0-9 digits recognition => 10 classes
 
-# Create a model
+# Create the model
 
 # Set model weights
 W = tf.Variable(tf.zeros([784, 10]))
@@ -67,8 +69,6 @@ merged_summary_op = tf.summary.merge_all()
 # Launch the graph
 with tf.Session() as sess:
     sess.run(init)
-
-
 
     # Change this to a location on your computer
     summary_writer = tf.summary.FileWriter("~/DS_ML/Deep Learning/", graph_def=sess.graph_def)
