@@ -1,6 +1,9 @@
 # DL-Multi-Layer-Perceptron
 
+![Alt image](https://github.com/PauloRlopez/DL-Multi-Layer-Perceptron-Handwritten-Character-Image-Classifier/blob/master/mnist.png)
+
 ## Overview 
+
 Building a multi-layer perceptron to try to classify handwritten digits using tensor flow.
 
 The data was acquired from: [THE MNIST DATABASE](http://yann.lecun.com/exdb/mnist/)
