@@ -64,8 +64,8 @@ This is a Deep Learning exercise that was re-created and change a few lines for 
 
 ## Credits
 
-Credit to tensorflow and google.
+Credit to google for creating tensorflow and  Yann LeCun, Courant Institute, NYU
+Corinna Cortes, Google Labs, New York Christopher J.C. Burges, Microsoft Research, Redmond.
 
-## Thanks
+**Thanks**
 
-Special shout out to Siraj
