@@ -4,9 +4,9 @@
 
 ## Overview 
 
-Building a multi-layer perceptron to try to classify handwritten digits using tensor flow.
+The MNIST database of handwritten digits, available from this [page](http://yann.lecun.com/exdb/mnist/), has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
 
-The data was acquired from: [THE MNIST DATABASE](http://yann.lecun.com/exdb/mnist/)
+Here we will be building a multi-layer perceptron to try to classify handwritten digits using tensor flow.
 
 ## Directions
 
@@ -64,8 +64,9 @@ This is a Deep Learning exercise that was re-created and change a few lines for 
 
 ## Credits
 
-Credit to google for creating tensorflow and  Yann LeCun, Courant Institute, NYU
-Corinna Cortes, Google Labs, New York Christopher J.C. Burges, Microsoft Research, Redmond.
+Credit to google for creating tensorflow and to Yann LeCun, Courant Institute, NYU;
+Corinna Cortes, Google Labs, New York; and Christopher J.C. Burges, Microsoft Research, Redmond;
+All are part of the **MNIST DATABASE** of handwritten digits.
 
 **Thanks**
 
