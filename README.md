@@ -6,16 +6,17 @@
 
 The MNIST database of handwritten digits, available from this [page](http://yann.lecun.com/exdb/mnist/), has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
 
-Here we will be building a multi-layer perceptron to try to classify handwritten digits using tensor flow.
+Here we will be building a multi-layer perceptron to classify handwritten digits using tensor flow.
 
 ## Directions
 
-I recommend to install tensor flow as a virtual environment via conda 
+It is recommended to install tensor flow as a virtual environment via conda 
+
 1. Install [tensorflow](https://www.tensorflow.org/install/)  
-2. download the dataset
-3. split it into training and testing datasets
-4. test the model
-5. calculate the accuracy 
+2. Download the dataset
+3. Split it into training and testing datasets
+4. Test the model
+5. Calculate the accuracy 
 
 ## Dependencies 
 
@@ -24,7 +25,7 @@ I recommend to install tensor flow as a virtual environment via conda
 
 ## Purpose 
 
-This is a Deep Learning exercise that was re-created and change a few lines for my learning purposes.  
+This is a Deep Learning exercise to classify hand-written characters. 
 
 ## Results
 
