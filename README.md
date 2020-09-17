@@ -1,16 +1,16 @@
 # Building a Multi-Layer-Perceptron
 
-![Alt image](https://github.com/PauloRlopez/DL-Multi-Layer-Perceptron-Handwritten-Character-Image-Classifier/blob/master/mnist.png)
+![Alt image](https://github.com/pau-lo/DL-Multi-Layer-Perceptron-Handwritten-Character-Image-Classifier/blob/master/mnist.png)
 
 ## Overview 
 
 The MNIST database of handwritten digits, available from this [page](http://yann.lecun.com/exdb/mnist/), has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
 
-Here we will be building a multi-layer perceptron to classify handwritten digits using tensor flow.
+Here we will be building a multi-layer perceptron to classify handwritten digits using tensorflow.
 
 ## Directions
 
-It is recommended to install tensor flow as a virtual environment via conda 
+It is recommended to install tensorflow as a virtual environment via conda. 
 
 1. Install [tensorflow](https://www.tensorflow.org/install/)  
 2. Download the dataset
@@ -25,9 +25,9 @@ It is recommended to install tensor flow as a virtual environment via conda
 
 ## Purpose 
 
-This is a Deep Learning exercise to classify hand-written characters. 
+A Deep Learning exercise to classify hand-written characters. 
 
-## Results
+## Results Example
 
         $(tensorflow) 2_Imagine (master *) Deep Learning $ python mnist.py
         Extracting ~/DS_ML/Deep Learning/train-images-idx3-ubyte.gz
@@ -65,9 +65,10 @@ This is a Deep Learning exercise to classify hand-written characters.
 
 ## Credits
 
-Credit to google for creating tensorflow and to Yann LeCun, Courant Institute, NYU;
+Credit to google for creating tensorflow.
+Thanks to Yann LeCun, Courant Institute, NYU;
 Corinna Cortes, Google Labs, New York; and Christopher J.C. Burges, Microsoft Research, Redmond;
-All are part of the **MNIST DATABASE** of handwritten digits.
+All are part of the **MNIST DATABASE.**
 
 **Thanks**
 
