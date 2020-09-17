@@ -1,6 +1,6 @@
 # Building a Multi-Layer-Perceptron
 
-![Alt image](https://github.com/pau-lo/DL-Multi-Layer-Perceptron-Handwritten-Character-Image-Classifier/blob/master/mnist.png)
+![Alt image](https://github.com/pau-lo/Deep-Learning-Multi-Layer-Perceptron-Handwritten-Character-Image-Classifier-/blob/master/mnist.png)
 
 ## Overview 
 
