@@ -1,4 +1,4 @@
-# Building a Multi-Layer-Perceptron
+# Building a Multi-Layer-Perceptronn using Tensorflow
 
 ![Alt image](https://github.com/pau-lo/Deep-Learning-Multi-Layer-Perceptron-Handwritten-Character-Image-Classifier-/blob/master/mnist.png)
 
