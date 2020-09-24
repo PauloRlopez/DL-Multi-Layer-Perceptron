@@ -29,30 +29,33 @@ A Deep Learning exercise to classify hand-written characters.
 
 ## Results Example
 
+- run the main.py file:
+
 ```bat
-    $  (tensorflow) 2_Imagine (master *) Deep Learning $ python mnist.py
-        Extracting ~/DS_ML/Deep Learning/train-images-idx3-ubyte.gz
-        Extracting ~/DS_ML/Deep Learning/train-labels-idx1-ubyte.gz
-        Extracting ~/DS_ML/Deep Learning/t10k-images-idx3-ubyte.gz
-        Extracting ~/DS_ML/Deep Learning/t10k-labels-idx1-ubyte.gz
+$ python main.py
+  Extracting ~/DS_ML/Deep Learning/train-images-idx3-ubyte.gz
+  Extracting ~/DS_ML/Deep Learning/train-labels-idx1-ubyte.gz
+  Extracting ~/DS_ML/Deep Learning/t10k-images-idx3-ubyte.gz
+  Extracting ~/DS_ML/Deep Learning/t10k-labels-idx1-ubyte.gz
                     
-      Iteration: 0001 cost= 29.860465115
-      Iteration: 0003 cost= 21.000626442
-      Iteration: 0005 cost= 20.136222584
-      Iteration: 0007 cost= 19.652899717
-      Iteration: 0009 cost= 19.383099742
-      Iteration: 0011 cost= 19.165024177
-      Iteration: 0013 cost= 18.770430475
-      Iteration: 0015 cost= 18.776208125
-      Iteration: 0017 cost= 18.655625496
-      Iteration: 0019 cost= 18.493998495
-      Iteration: 0021 cost= 18.481863666
-      Iteration: 0023 cost= 18.312887948
-      Iteration: 0025 cost= 18.326373666
-      Iteration: 0027 cost= 18.227951255
-      Iteration: 0029 cost= 18.035528241
-      Accuracy: 0.9235
-      Tuning completed!
+  Iteration: 0001 cost= 29.860465115
+  Iteration: 0003 cost= 21.000626442
+  Iteration: 0005 cost= 20.136222584
+  Iteration: 0007 cost= 19.652899717
+  Iteration: 0009 cost= 19.383099742
+  Iteration: 0011 cost= 19.165024177
+  Iteration: 0013 cost= 18.770430475
+  Iteration: 0015 cost= 18.776208125
+  Iteration: 0017 cost= 18.655625496
+  Iteration: 0019 cost= 18.493998495
+  Iteration: 0021 cost= 18.481863666
+  Iteration: 0023 cost= 18.312887948
+  Iteration: 0025 cost= 18.326373666
+  Iteration: 0027 cost= 18.227951255
+  Iteration: 0029 cost= 18.035528241
+  
+  Accuracy: 0.9235
+  Tuning completed!
 ```
      
 
