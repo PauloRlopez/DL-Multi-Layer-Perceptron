@@ -29,20 +29,14 @@ A Deep Learning exercise to classify hand-written characters.
 
 ## Results Example
 
-        $(tensorflow) 2_Imagine (master *) Deep Learning $ python mnist.py
+    ```bat
+    $  (tensorflow) 2_Imagine (master *) Deep Learning $ python mnist.py
         Extracting ~/DS_ML/Deep Learning/train-images-idx3-ubyte.gz
         Extracting ~/DS_ML/Deep Learning/train-labels-idx1-ubyte.gz
         Extracting ~/DS_ML/Deep Learning/t10k-images-idx3-ubyte.gz
         Extracting ~/DS_ML/Deep Learning/t10k-labels-idx1-ubyte.gz
-        WARNING:tensorflow:From mnist.py:62: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated           and will be removed after 2017-03-02.
-        Instructions for updating:
-        Use `tf.global_variables_initializer` instead.
-        W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1                       instructions, but these are available on your machine and could speed up CPU computations.
-         W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2                       instructions, but these are available on your machine and could speed up CPU computations.
-        W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions,               but these are available on your machine and could speed up CPU computations.
-         W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2                         instructions, but these are available on your machine and could speed up CPU computations.
-         W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions,          but these are available on your machine and could speed up CPU computations.
-                WARNING:tensorflow:Passing a `GraphDef` to the SummaryWriter is deprecated. Pass a `Graph` object instead,                     such as `sess.graph`.
+        
+    
                 
       Iteration: 0001 cost= 29.860465115
       Iteration: 0003 cost= 21.000626442
@@ -61,7 +55,7 @@ A Deep Learning exercise to classify hand-written characters.
       Iteration: 0029 cost= 18.035528241
       Accuracy: 0.9235
       Tuning completed!
-
+     
 
 ## Credits
 
@@ -69,6 +63,3 @@ Credit to google for creating tensorflow.
 Thanks to Yann LeCun, Courant Institute, NYU;
 Corinna Cortes, Google Labs, New York; and Christopher J.C. Burges, Microsoft Research, Redmond;
 All are part of the **MNIST DATABASE.**
-
-**Thanks**
-
