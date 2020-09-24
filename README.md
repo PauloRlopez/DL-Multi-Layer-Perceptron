@@ -1,4 +1,4 @@
-# Building a Multi-Layer-Perceptronn using Tensorflow
+# Building a Multi-Layer-Perceptron using Tensorflow
 
 ![Alt image](https://github.com/pau-lo/Deep-Learning-Multi-Layer-Perceptron-Handwritten-Character-Image-Classifier-/blob/master/mnist.png)
 
@@ -29,15 +29,13 @@ A Deep Learning exercise to classify hand-written characters.
 
 ## Results Example
 
-    ```bat
+```bat
     $  (tensorflow) 2_Imagine (master *) Deep Learning $ python mnist.py
         Extracting ~/DS_ML/Deep Learning/train-images-idx3-ubyte.gz
         Extracting ~/DS_ML/Deep Learning/train-labels-idx1-ubyte.gz
         Extracting ~/DS_ML/Deep Learning/t10k-images-idx3-ubyte.gz
         Extracting ~/DS_ML/Deep Learning/t10k-labels-idx1-ubyte.gz
-        
-    
-                
+                    
       Iteration: 0001 cost= 29.860465115
       Iteration: 0003 cost= 21.000626442
       Iteration: 0005 cost= 20.136222584
@@ -55,6 +53,7 @@ A Deep Learning exercise to classify hand-written characters.
       Iteration: 0029 cost= 18.035528241
       Accuracy: 0.9235
       Tuning completed!
+```
      
 
 ## Credits
